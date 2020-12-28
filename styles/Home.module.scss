@@ -15,7 +15,23 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .navbarItem {
   margin: 0 25px;
+}
+.btn {
+  padding: 10px 30px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+.btn,
+.navbarItem a {
+  transition: 0.2s;
+}
+.btn:hover,
+.navbarItem a:hover {
+  color: teal;
+  cursor: pointer;
 }
