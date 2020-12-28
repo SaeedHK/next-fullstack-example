@@ -1,5 +1,4 @@
 .header {
-  background: black;
   min-height: 800px;
   display: flex;
   flex-direction: row;
@@ -12,6 +11,7 @@
 }
 .headerText .title {
   font-size: 8em;
+  margin-bottom: 50px;
 }
 .headerText .text {
   font-size: 4em;
@@ -19,4 +19,13 @@
 .headerText .title,
 .headerText .text {
   color: teal;
+}
+.headerImage {
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.headerImage:hover {
+  top: -20px;
 }
