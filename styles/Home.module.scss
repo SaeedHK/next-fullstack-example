@@ -1,0 +1,22 @@
+.header {
+  background: black;
+  min-height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 200px;
+}
+.headerText {
+  width: 50%;
+}
+.headerText .title {
+  font-size: 8em;
+}
+.headerText .text {
+  font-size: 4em;
+}
+.headerText .title,
+.headerText .text {
+  color: teal;
+}
